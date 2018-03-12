@@ -1,0 +1,23 @@
+LAB 1
+a. HTML - a markup language used for creating web pages. HTML is like the backbone of the page, containing the structural elements. Styles and scripts can be written inside it too if theyre in the correct tags.
+b. CSS - an addition to HTML in creating Web Pages, css is used in stylesheets which design the different HTML elements.
+c. Javascript - adding functionality to web pages created with HTML and CSS
+d. HTTP - a network protocol carrying hypertext, which is a method of presenting information on a computer
+e. HTML5 - a new, simplified and smoother version of HTML
+f. Dynamic HTML - HTML syntax allowing creation of dynamic and animated websites
+
+LAB 2
+a. RWD means web design which responds to different screens by changing some of its properties so it can suit better.
+b. media queries are helpful since they determine different conditions for different sized screens
+c. ems are better to use in RWD becayse they are scalable
+d. one of the easiest way nowadays to make responsive design is FlexBox. It is pure css and it determines position of certain elements depending on their css properties and the properties of their parent container. Bootstrap is another good innovation, it uses CSS grid, and devides the screen into 12.
+
+
+LAB 3
+A web socket means a continuous connection between a client and a server, which means data can be sent from the server any time without requests. It is useful in chats and other applications where the client wasnts to know immidiately when something happens on the serveer.
+
+LAB 4
+a. Jquery is a Javascript library, which shortens Javascript code.
+b. Jquery helps programmers to write code faster and less complicated, it features html/dom and css manipulation, annimation, ajax etc.
+c. It will shorten it and make it easier if we are about to use ajax.
+d. CDN stands for content delivery or content distribution network. It is a network of proxy servers and data centers which are geografically distributed and share copies of the same data so if a client requests it, the closer server will send it to him.

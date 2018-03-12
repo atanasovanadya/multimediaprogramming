@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        
+        
+        <div class="audio-player">
+            <div class=buttons>
+                <button onclick="playAudio()">Play</button>
+                <button onclick="stopAudio()">Stop</button>
+            </div>
+            <audio  id="myAudio">
+            <source src="http://stream.basso.fi:8000/stream" type="audio/mp3">
+            </audio>
+            
+            <div class="slides">
+                <div class="slider-cont">
+                    <input type="range" onchange="setVolume(this.value)" id='volume1' min=0 max=100 step="1">
+                </div>
+            </div>
+
+        </div>
+         
+    </body>

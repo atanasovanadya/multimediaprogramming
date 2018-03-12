@@ -1,0 +1,52 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: lightgray;
+}
+
+.container{
+    flex-direction: row;
+}
+
+.header{
+    background-color: grey;
+}
+
+
+.other{
+    display: inline;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+}
+
+
+
+a { 
+  text-decoration: none;
+  color: black;
+}
+
+
+.other{
+    width: 80%;
+}
+
+.other, nav{
+    float:left;
+}
+
+header{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+img{ max-width: 100%;
+}
+

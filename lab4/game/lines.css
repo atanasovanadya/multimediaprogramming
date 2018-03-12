@@ -1,0 +1,17 @@
+#canvas{
+    border: 5px solid black;
+    background-size: 100%;
+}
+
+#count{
+    font-size: 40px;
+}
+
+#miss{
+    font-size: 40px;
+}
+
+p{
+    color:red;
+    font-size: 200%;
+}

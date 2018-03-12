@@ -1,0 +1,52 @@
+div{
+    display: inline;
+    
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+}
+
+.header{
+    max-width: 50%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.main{
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.names{
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 20pt;
+    }
+    
+    input{
+        width: 70pt;
+    }
+    
+    .main{
+        flex-flow: column;
+    }
+}
+
